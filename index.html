@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex h-screen items-center justify-center bg-slate-100">
+    <div class="rounded-lg bg-white p-8 w-[30rem]">
+      <form method="post" action="" name="contact-form">
+        <h4 class="mb-4 text-2xl font-bold text-slate-800">ITSFess</h4>
+        <div class="mb-4">
+          <input
+            type="text"
+            name="Nama"
+            placeholder="Nama"
+            class="w-full rounded  p-3 bg-slate-100/50 border-none focus:outline-none focus:border-violet-500 focus:ring-2 focus:ring-violet-500"
+          />
+        </div>
+        <div class="mb-4">
+          <input
+            type="email"
+            name="Email"
+            placeholder="Email"
+            class="w-full rounded p-3 bg-slate-100/50 border-none focus:outline-none focus:border-violet-500 focus:ring-2 focus:ring-violet-500"
+          />
+        </div>
+        <div class="mb-4">
+          <input
+            type="text"
+            name="Jurusan"
+            placeholder="Jurusan"
+            class="w-full rounded p-3 bg-slate-100/50 border-none focus:outline-none focus:border-violet-500 focus:ring-2 focus:ring-violet-500"
+          />
+        </div>
+        <div class="mb-4">
+          <textarea
+            name="Pesan"
+            rows="7"
+            placeholder="Pesan"
+            class="w-full rounded p-2 bg-slate-100/50 border-none focus:outline-none focus:border-violet-500 focus:ring-2 focus:ring-violet-500"
+          ></textarea>
+        </div>
+        <div>
+          <input
+            type="submit"
+            value="Submit"
+            id="submit"
+            class="w-full cursor-pointer bg-violet-500 rounded-full p-2 text-white"
+          />
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
